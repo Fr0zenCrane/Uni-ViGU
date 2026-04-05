@@ -64,3 +64,7 @@ python inference_unified_wan.py \
 ```
 
 > **Note:** Replace `/path/to/Uni-ViGU-CKPT` and `/path/to/wan_2.1_1.3B_ckpt` with the actual paths to your model checkpoints before running.
+
+## 🙏 Thanks
+
+We appreciate the [Diffusers](https://github.com/huggingface/diffusers) and the [Flow Matching](https://github.com/facebookresearch/flow_matching) — the two codebases this project is built upon.
