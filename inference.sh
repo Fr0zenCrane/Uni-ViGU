@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # const
-CKPT_PATH=/inspire/ssd/project/sais-mtm/public/qlz/code/flow_matching/examples/text/results/unified-flow-vbench-64-128-TO-128-256-sampled-2k-balanced-alpha-t-cfg-0.2-lr-5e-5/checkpoints/step-00068000.pth
-wan_model_path=/inspire/ssd/project/sais-mtm/public/qlz/pretrained_models/Wan2.1-T2V-1.3B-Diffusers
+CKPT_PATH=/path/to/Uni-ViGU-CKPT
+wan_model_path=/path/to/wan_2.1_1.3B_ckpt
 
 python inference_unified_wan.py \
     --mode t2v \
