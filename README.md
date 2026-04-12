@@ -1,5 +1,8 @@
 # Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator [Preview]
 
+<a href='https://fr0zencrane.github.io/uni-vigu-page/'><img src='https://img.shields.io/badge/Project-Page-yellow'></a>
+<a href='https://arxiv.org/abs/2604.08121/'><img src='https://img.shields.io/badge/UniViGU-Paper-red?logo=arxiv'></a>
+
 Unified multimodal models integrating visual understanding and generation face a fundamental challenge: visual generation incurs substantially higher computational costs than understanding, particularly for video. This imbalance motivates us to invert the conventional paradigm: rather than extending understanding-centric MLLMs to support generation, we propose **Uni-ViGU**, a framework that unifies video generation and understanding by extending a video generator as the foundation.
 
 We introduce a **unified flow method** that performs continuous flow matching for video and discrete flow matching for text within a single process, enabling coherent multimodal generation. We further propose a **modality-driven MoE-based framework** that augments Transformer blocks with lightweight layers for text generation while preserving generative priors. To repurpose generation knowledge for understanding, we design a **bidirectional training mechanism** with two stages: *Knowledge Recall* reconstructs input prompts to leverage learned text-video correspondences, while *Capability Refinement* fine-tunes on detailed captions to establish discriminative shared representations.
