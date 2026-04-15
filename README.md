@@ -72,3 +72,14 @@ python inference_unified_wan.py \
 ## 🙏 Thanks
 
 We appreciate the [Diffusers](https://github.com/huggingface/diffusers) and the [Flow Matching](https://github.com/facebookresearch/flow_matching) — the two codebases this project is built upon.
+
+## Citation
+if you find this work useful, please consider give us a star and cite this paper:
+```
+@article{qin2026uni-vigu,
+  title={Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator},
+  author={Qin, Luozheng and Gong, Jia and Qiao, Qian and Li, Tianjiao and Xu, Li and Pan, Haoyu and Qu, Chao and Tan, Zhiyu and Li, Hao},
+  journal={arXiv preprint arXiv:2604.08121},
+  year={2026}
+}
+```
