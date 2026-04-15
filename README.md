@@ -2,7 +2,7 @@
 
 <a href='https://fr0zencrane.github.io/uni-vigu-page/'><img src='https://img.shields.io/badge/Project-Page-yellow'></a>
 <a href='https://arxiv.org/abs/2604.08121/'><img src='https://img.shields.io/badge/UniViGU-Paper-red?logo=arxiv'></a>
-<a href='https://huggingface.co/Fr0zencr4nE/Uni-ViGU'><img src='https://img.shields.io/badge/UniViGU-blue?logo=huggingface'></a>
+<a href='https://huggingface.co/Fr0zencr4nE/Uni-ViGU'><img src='https://img.shields.io/badge/UniViGU-Model-blue?logo=huggingface'></a>
 
 Unified multimodal models integrating visual understanding and generation face a fundamental challenge: visual generation incurs substantially higher computational costs than understanding, particularly for video. This imbalance motivates us to invert the conventional paradigm: rather than extending understanding-centric MLLMs to support generation, we propose **Uni-ViGU**, a framework that unifies video generation and understanding by extending a video generator as the foundation.
 
